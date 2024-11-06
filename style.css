@@ -2290,7 +2290,7 @@ i.icon.icon-arrow-io {
 }
 @media screen and (max-width: 1199px) {
   .shoppify-section-banner img {
-      opacity: 0.3;
+    object-position: top;
   }
 }
 
