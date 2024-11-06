@@ -168,14 +168,14 @@ a {
   transition: 0.3s color ease-out;
 }
 p>a {
-  color:blue;
+  color:lightblue;
 }
 a.light {
   color: var(--light-color);
 }
 a:hover {
   text-decoration: none;
-  color:green;
+  color:blue;
 }
 ul, ol {
   margin-top: 0;
