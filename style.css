@@ -168,14 +168,14 @@ a {
   transition: 0.3s color ease-out;
 }
 p>a {
-  color: var(--primary-color);
+  color:blue;
 }
 a.light {
   color: var(--light-color);
 }
 a:hover {
   text-decoration: none;
-  color: var(--primary-color);
+  color:green;
 }
 ul, ol {
   margin-top: 0;
@@ -1619,10 +1619,15 @@ blockquote cite {
   text-transform: capitalize;
 }
 .menu-list a.item-anchor.active{
-  color: var(--primary-color);
+
+  background-color: #f0baf1;
+  border-radius: 5px;
+
 }
 .menu-list a.item-anchor:hover{
-  color: var(--primary-color);
+  
+  background-color: #f695f8;
+  border-radius: 5px;
 }
 .menu-item.has-sub .submenu a.item-anchor{
   padding-right: 15px;
@@ -2211,7 +2216,9 @@ i.icon.icon-arrow-io {
 }
 .tabs .tab.active,
 .tabs .tab:hover {
-    color: var(--primary-color);
+    color: blue;
+    /* background-color: #ca7cda;
+    border-radius: 5px; */
 }
 
 @media screen and (max-width: 991px) {
@@ -2889,4 +2896,12 @@ section.categories .category-content a{
 --------------------------------------------------------------*/
 .jarallax.min-height300 {
     min-height: 300px;
+}
+/* -------------tah57------------- */
+#program img {
+  width: 100px;
+  background-color: rgb(250, 138, 181);
+  padding: .5rem;
+  border-radius: 50%;
+  color: #08D9D6;
 }
